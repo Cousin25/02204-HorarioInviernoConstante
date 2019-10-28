@@ -21,12 +21,9 @@ package org.japo.java.main;
  */
 public class Main {
 
-    
     public static void main(String[] args) {
-        final boolean HORARIO_INVIERNO
-        System.out.print("Suponemos que horario de invierno es cuando anoche antes de las 19 y amanece más tarde de las 8");
-        
-        
+        final boolean HORARIO_INVIERNO = false;
+        System.out.println("Horario de invierno ...: " + HORARIO_INVIERNO);
+        System.out.printf("Horario de invierno ...: %b%n", HORARIO_INVIERNO);
     }
-    
 }
